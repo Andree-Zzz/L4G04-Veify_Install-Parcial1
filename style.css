@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: gold;
+    margin-top: 2px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+}
+
+.table{
+    background-color: white;
+    width: 60vw;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rgb(115, 72, 216);
+    border-bottom: solid 1px black;
+    color: white;
+}
+
+th, td{
+    padding: 7px;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #a4cec5;
+    color:  white;
+}
+.activo{
+    color: green;
+}
+
+.inactivo{
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+label{
+    color: #ffffff;
+}
+.insta{
+    display: flex;
+}
